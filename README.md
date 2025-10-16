@@ -142,7 +142,7 @@ local-ai-agent/
 ├── vector.py                        # Vector database setup
 ├── config.py                        # Configuration settings
 ├── requirements.txt                 # Python dependencies
-├── realistic_restaurant_reviews.csv  # Sample data
+├── realistic_restaurant_reviews.csv # Sample data
 ├── chrome_langchain_db/             # Vector database (auto-created)
 └── README.md                        # This file
 ```
@@ -161,14 +161,14 @@ You can modify all settings in `config.py`:
 
 ```python
 # Model Configuration
-LLM_MODEL = "llama3.2:1b"                    # Change LLM model
-EMBEDDING_MODEL = "mxbai-embed-large"         # Change embedding model
+LLM_MODEL = "llama3.2:1b"                   # Change LLM model
+EMBEDDING_MODEL = "mxbai-embed-large"       # Change embedding model
 
 # Vector Database Configuration
-RETRIEVAL_COUNT = 5                           # Number of reviews to retrieve
+RETRIEVAL_COUNT = 5                          # Number of reviews to retrieve
 
 # Data Configuration
-CSV_FILE = "realistic_restaurant_reviews.csv"  # Change data source
+CSV_FILE = "realistic_restaurant_reviews.csv" # Change data source
 ```
 
 **Available Models:**
